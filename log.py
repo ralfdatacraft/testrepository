@@ -5,7 +5,7 @@ fn = 'beispiel.log'
 
 logging.basicConfig(filename=fn,
                     filemode='w',
-			        format='%(asctime)s - %(message)s',
+			        format='%(asctime)s - %(levelname)s - %(message)s',
 			        level=logging.INFO)
 
 #In 4 Stufen festgehalten:
